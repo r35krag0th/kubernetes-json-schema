@@ -6,9 +6,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "v1"
       ]
     },
     "kind": {
@@ -16,9 +13,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "APIGroup"
       ]
     },
     "name": {
@@ -44,10 +38,7 @@
         "groupVersion",
         "version"
       ],
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": "object",
       "additionalProperties": false
     },
     "serverAddressByClientCIDRs": {
@@ -68,10 +59,7 @@
           "clientCIDR",
           "serverAddress"
         ],
-        "type": [
-          "object",
-          "null"
-        ],
+        "type": "object",
         "additionalProperties": false
       },
       "type": [
@@ -97,10 +85,7 @@
           "groupVersion",
           "version"
         ],
-        "type": [
-          "object",
-          "null"
-        ],
+        "type": "object",
         "additionalProperties": false
       },
       "type": [

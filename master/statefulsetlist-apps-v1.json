@@ -6,9 +6,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "apps/v1"
       ]
     },
     "items": {
@@ -25,9 +22,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "StatefulSetList"
       ]
     },
     "metadata": {

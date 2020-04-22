@@ -20,9 +20,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "RuntimeClass"
       ]
     },
     "metadata": {

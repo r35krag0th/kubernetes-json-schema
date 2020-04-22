@@ -13,9 +13,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "discovery.k8s.io/v1beta1"
       ]
     },
     "endpoints": {
@@ -34,9 +31,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "EndpointSlice"
       ]
     },
     "metadata": {

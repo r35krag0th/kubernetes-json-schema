@@ -10,10 +10,7 @@
     },
     "readOnly": {
       "description": "Will force the ReadOnly setting in VolumeMounts. Default false.",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": "boolean"
     }
   },
   "required": [

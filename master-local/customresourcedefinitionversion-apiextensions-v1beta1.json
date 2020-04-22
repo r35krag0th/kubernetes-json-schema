@@ -24,17 +24,11 @@
     },
     "served": {
       "description": "served is a flag enabling/disabling this version from being served via REST APIs",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": "boolean"
     },
     "storage": {
       "description": "storage indicates this version should be used when persisting custom resources to storage. There must be exactly one version with storage=true.",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": "boolean"
     },
     "subresources": {
       "$ref": "_definitions.json#/definitions/io.k8s.apiextensions-apiserver.pkg.apis.apiextensions.v1beta1.CustomResourceSubresources",

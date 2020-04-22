@@ -12,10 +12,7 @@
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": "object",
       "additionalProperties": false
     },
     "kind": {
@@ -41,10 +38,7 @@
         "namespace",
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": "object",
       "additionalProperties": false
     },
     "user": {
@@ -58,10 +52,7 @@
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": "object",
       "additionalProperties": false
     }
   },

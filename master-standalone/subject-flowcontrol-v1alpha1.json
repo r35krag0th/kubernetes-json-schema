@@ -12,10 +12,7 @@
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "kind": {
       "description": "Required",
@@ -40,10 +37,7 @@
         "namespace",
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "user": {
       "description": "UserSubject holds detailed information for user-kind subject.",
@@ -56,10 +50,7 @@
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     }
   },
   "required": [

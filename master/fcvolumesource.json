@@ -11,17 +11,11 @@
     "lun": {
       "description": "Optional: FC target lun number",
       "format": "int32",
-      "type": [
-        "integer",
-        "null"
-      ]
+      "type": "integer"
     },
     "readOnly": {
       "description": "Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": "boolean"
     },
     "targetWWNs": {
       "description": "Optional: FC target worldwide names (WWNs)",

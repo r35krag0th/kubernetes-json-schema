@@ -10,9 +10,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "rbac.authorization.k8s.io/v1alpha1"
       ]
     },
     "kind": {
@@ -20,9 +17,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "ClusterRole"
       ]
     },
     "metadata": {

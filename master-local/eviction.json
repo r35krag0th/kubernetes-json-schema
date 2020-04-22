@@ -17,9 +17,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "Eviction"
       ]
     },
     "metadata": {

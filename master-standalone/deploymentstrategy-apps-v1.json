@@ -13,10 +13,7 @@
               ]
             },
             {
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             }
           ]
         },
@@ -29,18 +26,12 @@
               ]
             },
             {
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             }
           ]
         }
       },
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "type": {
       "description": "Type of deployment. Can be \"Recreate\" or \"RollingUpdate\". Default is RollingUpdate.",

@@ -22,9 +22,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "APIServiceList"
       ]
     },
     "metadata": {

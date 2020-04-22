@@ -6,18 +6,12 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "v1"
       ]
     },
     "code": {
       "description": "Suggested HTTP return code for this status, 0 if not set.",
       "format": "int32",
-      "type": [
-        "integer",
-        "null"
-      ]
+      "type": "integer"
     },
     "details": {
       "$ref": "_definitions.json#/definitions/io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails",
@@ -28,9 +22,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "Status"
       ]
     },
     "message": {

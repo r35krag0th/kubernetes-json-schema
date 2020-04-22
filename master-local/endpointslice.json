@@ -31,9 +31,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "EndpointSlice"
       ]
     },
     "metadata": {

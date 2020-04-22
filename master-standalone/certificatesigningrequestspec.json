@@ -15,10 +15,7 @@
         ]
       },
       "description": "Extra information about the requesting user. See user.Info interface for details.",
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "groups": {
       "description": "Group information about the requesting user. See user.Info interface for details.",

@@ -4,10 +4,7 @@
     "count": {
       "description": "Number of occurrences in this series up to the last heartbeat time",
       "format": "int32",
-      "type": [
-        "integer",
-        "null"
-      ]
+      "type": "integer"
     },
     "lastObservedTime": {
       "description": "MicroTime is version of Time with microsecond level precision.",

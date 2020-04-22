@@ -30,10 +30,7 @@
             "required": [
               "cidr"
             ],
-            "type": [
-              "object",
-              "null"
-            ]
+            "type": "object"
           },
           "namespaceSelector": {
             "description": "A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.",
@@ -71,10 +68,7 @@
                     "key",
                     "operator"
                   ],
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 },
                 "type": [
                   "array",
@@ -89,16 +83,10 @@
                   ]
                 },
                 "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-                "type": [
-                  "object",
-                  "null"
-                ]
+                "type": "object"
               }
             },
-            "type": [
-              "object",
-              "null"
-            ]
+            "type": "object"
           },
           "podSelector": {
             "description": "A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.",
@@ -136,10 +124,7 @@
                     "key",
                     "operator"
                   ],
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 },
                 "type": [
                   "array",
@@ -154,22 +139,13 @@
                   ]
                 },
                 "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-                "type": [
-                  "object",
-                  "null"
-                ]
+                "type": "object"
               }
             },
-            "type": [
-              "object",
-              "null"
-            ]
+            "type": "object"
           }
         },
-        "type": [
-          "object",
-          "null"
-        ]
+        "type": "object"
       },
       "type": [
         "array",
@@ -190,10 +166,7 @@
                 ]
               },
               {
-                "type": [
-                  "integer",
-                  "null"
-                ]
+                "type": "integer"
               }
             ]
           },
@@ -205,10 +178,7 @@
             ]
           }
         },
-        "type": [
-          "object",
-          "null"
-        ]
+        "type": "object"
       },
       "type": [
         "array",

@@ -23,9 +23,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "IngressList"
       ]
     },
     "metadata": {

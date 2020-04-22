@@ -10,10 +10,7 @@
             "averageUtilization": {
               "description": "currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.",
               "format": "int32",
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             },
             "averageValue": {
               "oneOf": [
@@ -24,10 +21,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             },
@@ -40,10 +34,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             }
@@ -93,10 +84,7 @@
                       "key",
                       "operator"
                     ],
-                    "type": [
-                      "object",
-                      "null"
-                    ]
+                    "type": "object"
                   },
                   "type": [
                     "array",
@@ -111,16 +99,10 @@
                     ]
                   },
                   "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 }
               },
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             }
           },
           "required": [
@@ -133,10 +115,7 @@
         "metric",
         "current"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "object": {
       "description": "ObjectMetricStatus indicates the current value of a metric describing a kubernetes object (for example, hits-per-second on an Ingress object).",
@@ -147,10 +126,7 @@
             "averageUtilization": {
               "description": "currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.",
               "format": "int32",
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             },
             "averageValue": {
               "oneOf": [
@@ -161,10 +137,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             },
@@ -177,10 +150,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             }
@@ -255,10 +225,7 @@
                       "key",
                       "operator"
                     ],
-                    "type": [
-                      "object",
-                      "null"
-                    ]
+                    "type": "object"
                   },
                   "type": [
                     "array",
@@ -273,16 +240,10 @@
                     ]
                   },
                   "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 }
               },
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             }
           },
           "required": [
@@ -296,10 +257,7 @@
         "current",
         "describedObject"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "pods": {
       "description": "PodsMetricStatus indicates the current value of a metric describing each pod in the current scale target (for example, transactions-processed-per-second).",
@@ -310,10 +268,7 @@
             "averageUtilization": {
               "description": "currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.",
               "format": "int32",
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             },
             "averageValue": {
               "oneOf": [
@@ -324,10 +279,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             },
@@ -340,10 +292,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             }
@@ -393,10 +342,7 @@
                       "key",
                       "operator"
                     ],
-                    "type": [
-                      "object",
-                      "null"
-                    ]
+                    "type": "object"
                   },
                   "type": [
                     "array",
@@ -411,16 +357,10 @@
                     ]
                   },
                   "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 }
               },
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             }
           },
           "required": [
@@ -433,10 +373,7 @@
         "metric",
         "current"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "resource": {
       "description": "ResourceMetricStatus indicates the current value of a resource metric known to Kubernetes, as specified in requests and limits, describing each pod in the current scale target (e.g. CPU or memory).  Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the \"pods\" source.",
@@ -447,10 +384,7 @@
             "averageUtilization": {
               "description": "currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.",
               "format": "int32",
-              "type": [
-                "integer",
-                "null"
-              ]
+              "type": "integer"
             },
             "averageValue": {
               "oneOf": [
@@ -461,10 +395,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             },
@@ -477,10 +408,7 @@
                   ]
                 },
                 {
-                  "type": [
-                    "number",
-                    "null"
-                  ]
+                  "type": "integer"
                 }
               ]
             }
@@ -496,10 +424,7 @@
         "name",
         "current"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "type": {
       "description": "type is the type of metric source.  It will be one of \"Object\", \"Pods\" or \"Resource\", each corresponds to a matching field in the object.",

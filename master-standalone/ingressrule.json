@@ -42,10 +42,7 @@
                       "kind",
                       "name"
                     ],
-                    "type": [
-                      "object",
-                      "null"
-                    ]
+                    "type": "object"
                   },
                   "serviceName": {
                     "description": "Specifies the name of the referenced service.",
@@ -63,10 +60,7 @@
                         ]
                       },
                       {
-                        "type": [
-                          "integer",
-                          "null"
-                        ]
+                        "type": "integer"
                       }
                     ]
                   }
@@ -91,10 +85,7 @@
             "required": [
               "backend"
             ],
-            "type": [
-              "object",
-              "null"
-            ]
+            "type": "object"
           },
           "type": "array"
         }
@@ -102,10 +93,7 @@
       "required": [
         "paths"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     }
   },
   "type": "object",

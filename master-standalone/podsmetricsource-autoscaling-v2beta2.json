@@ -44,10 +44,7 @@
                   "key",
                   "operator"
                 ],
-                "type": [
-                  "object",
-                  "null"
-                ]
+                "type": "object"
               },
               "type": [
                 "array",
@@ -62,25 +59,16 @@
                 ]
               },
               "description": "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed.",
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             }
           },
-          "type": [
-            "object",
-            "null"
-          ]
+          "type": "object"
         }
       },
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "target": {
       "description": "MetricTarget defines the target value, average value, or average utilization of a specific metric",
@@ -88,10 +76,7 @@
         "averageUtilization": {
           "description": "averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type",
           "format": "int32",
-          "type": [
-            "integer",
-            "null"
-          ]
+          "type": "integer"
         },
         "averageValue": {
           "oneOf": [
@@ -102,10 +87,7 @@
               ]
             },
             {
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": "integer"
             }
           ]
         },
@@ -122,10 +104,7 @@
               ]
             },
             {
-              "type": [
-                "number",
-                "null"
-              ]
+              "type": "integer"
             }
           ]
         }
@@ -133,10 +112,7 @@
       "required": [
         "type"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     }
   },
   "required": [

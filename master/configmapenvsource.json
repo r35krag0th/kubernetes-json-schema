@@ -10,10 +10,7 @@
     },
     "optional": {
       "description": "Specify whether the ConfigMap must be defined",
-      "type": [
-        "boolean",
-        "null"
-      ]
+      "type": "boolean"
     }
   },
   "type": "object",

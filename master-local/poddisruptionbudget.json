@@ -13,9 +13,6 @@
       "type": [
         "string",
         "null"
-      ],
-      "enum": [
-        "PodDisruptionBudget"
       ]
     },
     "metadata": {

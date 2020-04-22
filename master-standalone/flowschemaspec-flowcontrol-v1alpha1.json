@@ -12,18 +12,12 @@
       "required": [
         "type"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "matchingPrecedence": {
       "description": "`matchingPrecedence` is used to choose among the FlowSchemas that match a given request. The chosen FlowSchema is among those with the numerically lowest (which we take to be logically highest) MatchingPrecedence.  Each MatchingPrecedence value must be ranged in [1,10000]. Note that if the precedence is not specified, it will be set to 1000 as default.",
       "format": "int32",
-      "type": [
-        "integer",
-        "null"
-      ]
+      "type": "integer"
     },
     "priorityLevelConfiguration": {
       "description": "PriorityLevelConfigurationReference contains information that points to the \"request-priority\" being used.",
@@ -36,10 +30,7 @@
       "required": [
         "name"
       ],
-      "type": [
-        "object",
-        "null"
-      ]
+      "type": "object"
     },
     "rules": {
       "description": "`rules` describes which requests will match this flow schema. This FlowSchema matches a request if and only if at least one member of rules matches the request. if it is an empty slice, there will be no requests matching the FlowSchema.",
@@ -78,10 +69,7 @@
                 "verbs",
                 "nonResourceURLs"
               ],
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             },
             "type": [
               "array",
@@ -107,10 +95,7 @@
                 },
                 "clusterScope": {
                   "description": "`clusterScope` indicates whether to match requests that do not specify a namespace (which happens either because the resource is not namespaced or the request targets all namespaces). If this field is omitted or false then the `namespaces` field must contain a non-empty list.",
-                  "type": [
-                    "boolean",
-                    "null"
-                  ]
+                  "type": "boolean"
                 },
                 "namespaces": {
                   "description": "`namespaces` is a list of target namespaces that restricts matches.  A request that specifies a target namespace matches only if either (a) this list contains that target namespace or (b) this list contains \"*\".  Note that \"*\" matches any specified namespace but does not match a request that _does not specify_ a namespace (see the `clusterScope` field for that). This list may be empty, but only if `clusterScope` is true.",
@@ -154,10 +139,7 @@
                 "apiGroups",
                 "resources"
               ],
-              "type": [
-                "object",
-                "null"
-              ]
+              "type": "object"
             },
             "type": [
               "array",
@@ -181,10 +163,7 @@
                   "required": [
                     "name"
                   ],
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 },
                 "kind": {
                   "description": "Required",
@@ -206,10 +185,7 @@
                     "namespace",
                     "name"
                   ],
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 },
                 "user": {
                   "description": "UserSubject holds detailed information for user-kind subject.",
@@ -222,19 +198,13 @@
                   "required": [
                     "name"
                   ],
-                  "type": [
-                    "object",
-                    "null"
-                  ]
+                  "type": "object"
                 }
               },
               "required": [
                 "kind"
               ],
-              "type": [
-                "object",
-                "null"
-              ],
+              "type": "object",
               "x-kubernetes-unions": [
                 {
                   "discriminator": "kind",
@@ -253,10 +223,7 @@
         "required": [
           "subjects"
         ],
-        "type": [
-          "object",
-          "null"
-        ]
+        "type": "object"
       },
       "type": [
         "array",
